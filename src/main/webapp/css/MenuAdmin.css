@@ -1,0 +1,94 @@
+@charset "ISO-8859-1";
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	text-align: center;
+}
+#fondo{
+	margin-top: auto;
+	 width: 100%;
+	 background-image: url(images/background_.jpg);
+	 background-repeat: no-repeat;
+	 background-size: 100% 100%;
+	 align-items: center;
+	 display: flex;
+	 height: 100vh;
+	 padding: auto;
+}
+.content{
+	width: 100%;
+	height:100%;
+}
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+header {
+	height: 100px;
+	background: #262626;
+	width: 100%;
+	z-index: 10;
+	position: fixed;
+}
+.logo {
+	width: 30%;
+	float: left;
+	line-height: 80px;
+}
+.logo a {
+	text-decoration: none;
+	font-size: 35px;
+	font-family: poppins;
+	color: #fff;
+	letter-spacing: 5px;
+}
+nav {
+	float: right;
+	line-height: 100px;
+}
+nav a {
+	text-decoration: none;
+	font-family: poppins;
+	letter-spacing: 4px;
+	font-size: 17px;
+	margin: 0 10px;
+	color: #fff;
+}
+
+nav a:hover{
+	background: #ef8354;
+}
+
+
+.boton {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+}
+
+#padin {
+	padding:10px;
+}
+
+#cedula {
+	margin-left:75px;
+}
+
+#usuario {
+	margin-left:17px;
+}
+
+.formul {
+	margin-top:110px;
+}
+
+.tablit{
+	margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+    background-color: #1b1b1b;
+    border-top: 4px solid #b63821;
+    color:white;
+}
